@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homework Details</title>
+    <link rel="stylesheet" href="/stylesheets/main.css" media="screen">
+</head>
+
+<h3 class="heading">Homework Details for ${id}<%= hw.hw_name %></h3>
+
+<ul>
+    <% hw.forEach(function(hw){ %>
+    <h4><%= hw.class %>: <%= hw.hw_name %></h4>
+    <p><%= hw.hw_text %></p>
+    <p><%= hw.start %></p>
+    <hr>
+    <% })%>
+  </ul>
+
+<button class="btn" onclick="editHw()">Edit</button>
+<button class="btn-danger" onclick="deleteHw()">Delete</button>

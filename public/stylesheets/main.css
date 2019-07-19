@@ -1,0 +1,263 @@
+body {
+  margin: 40px 10px;
+  padding: 0;
+  font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 14px;
+}
+#calendar {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.hoverEffect {
+  font-size: 29px;
+  position: absolute;
+  margin: 30px 55px;
+  cursor: pointer;
+}
+.ui-datepicker-trigger
+{
+background: transparent;
+  border: none;
+  margin: 0!important;
+  padding: 0!important;
+}
+.datetimepicker .input-group-addon {
+  background-color: #f9f9f9;
+  border-radius: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+  height: 2.1em;
+  border: 1px solid #ccc;
+  
+}
+.fc-state-default.fc-corner-right
+{
+border-radius: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin-top: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.calendar {
+  max-width: 50vw;
+  padding: 0 5px 0 10px;
+}
+
+.events {
+  width: 50vw;
+  margin-right: 20px;
+}
+
+.month {
+  padding: 1vw 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: black;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13%;
+  color: #666;
+  text-align: center;
+  font-size: 20px;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13%;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+a.details-btn {
+  background-color: #1abc9c;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  float: right;
+}
+
+a.details-btn:hover {
+  background-color: #14947a;
+}
+
+a.add-btn {
+  background-color: #1abc9c;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+a.add-btn:hover {
+  background-color: #14947a;
+}
+
+.collapsible {
+  background-color: #1abc9c;
+  color: black;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 30px;
+}
+
+.heading {
+  background-color: #1abc9c;
+  color: black;
+  padding: 5px;
+  border: none;
+  text-align: center;
+  outline: none;
+  margin: 0;
+  font-size: 25px;
+}
+
+#to-do {
+    margin-top: 25px;
+}
+
+.btn {
+  background-color: #1abc9c;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin: 5px 5px 0 0;
+}
+
+.btn:hover {
+  background-color: #14947a;
+}
+
+.btn-danger {
+  background-color: rgb(192, 0, 0);
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin: 5px 5px 0 0;
+}
+
+.btn-danger:hover {
+    background-color: rgb(161, 0, 0);
+}
+
+.btn-cancel {
+  background-color: rgb(175, 175, 175);
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin: 5px 5px 0 0;
+}
+
+.btn-cancel:hover {
+  background-color: rgb(141, 141, 141);
+}
+
+form {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+}
+
+.form {
+    font-size: 18px;
+}
+
+/* collapsible */
+/* .collapsible {
+  background-color: #1abc9c;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.active, .collapsible:hover {
+  background-color: #14947a;
+}
+
+.content {
+  padding: 0;
+  display: none;
+  overflow: hidden;
+} */
